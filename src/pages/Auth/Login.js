@@ -30,7 +30,7 @@ const Login = () => {
           "password":password,
         }),
       };
-      const res = await axios.post('/api/v1/auth/login',{
+      const res = await axios.post('https://ecommer-backend-jr7g.onrender.com/api/v1/auth/login',{
         email,
         password
       });
