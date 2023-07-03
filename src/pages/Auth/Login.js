@@ -12,7 +12,7 @@ const Login = () => {
 
   const navigate = useNavigate();
   const location = useLocation();
- const path='/api/v1/auth/login';
+ const path='https://ecommer-backend-jr7g.onrender.com/api/v1/auth/login';
  const API=(process.env.REACT_APP_API_KEY)+path;
  console.log(API);
   // form function
