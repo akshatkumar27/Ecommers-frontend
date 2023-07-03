@@ -1,5 +1,6 @@
 .banner-img {
   margin-top: 60px; 
+  border-bottom: 1px solid black;
 }
 
 .home-page h1 {
